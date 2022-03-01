@@ -1,108 +1,14 @@
 {
-  "test":[
-{
-"column":"WDER_TIN"
-,"isRequired":true
-}
-,{
-"column":"WDER_NAME"
-,"isRequired":false
-}
-,{
-"column":"TAX_CODE"
-,"isRequired":true
-}
-,{
-"column":"PERIOD_MONTH"
-,"isRequired":true
-}
-,{
-"column":"PERIOD_YEAR"
-,"isRequired":true
-}
-,{
-"column":"PERIOD_WEEK"
-
-,"isRequired":false
-}
-,{
-"column":"WDEE_TIN"
-,"isRequired":false
-}
-,{
-"column":"WDEE_NID"
-,"isRequired":false
-}
-,{
-"column":"WDEE_FNAME"
-,"isRequired":false
-}
-,{
-"column":"WDEE_NAME"
-,"isRequired":true
-}
-,{
-"column":"RATE"
-,"isRequired":false
-}
-,{
-"colum
-n":"COMP_TYPE"
-,"isRequired":false
-}
-,{
-"column":"TAXABLE_INCOME"
-,"isRequired":true
-}
-,{
-"column":"OTAXABLE_INC"
-,"isRequired":false
-}
-,{
-"column":"DEDUC_AMOUNT"
-,"isRequired":false
-}
-,{
-"column":"AMOUNT_WHELD"
-,"isRequired":false
-}
-,{
-"column":"WHOLDING
-_DATE"
-,"isRequired":false
-}
-,{
-"column":"EMP_START_DATE"
-,"isRequired":false
-}
-,{
-"column":"EMP_END_DATE"
-,"isRequired":false
-}
-,{
-"column":"EXEM_CODE"
-,"isRequired":false
-}
-,{
-"column":"EXEM_AMOUNT"
-,"isRequired":false
-}
-,{
-"column":"TOTAL_BASE_SALARY"
-
-,"isRequired":false
-}
-,{
-"column":"SPECIAL_WITHHOLDING"
-,"isRequired":false
-}
-,{
-"column":"MAR_STAT_NO"
-,"isRequired":false
-}
-,{
-"column":"SUBMITTED_FAMILY_DIVIDER"
-,"isRequired":false
-}
-]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
