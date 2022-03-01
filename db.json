@@ -1,4 +1,5 @@
-[
+{
+  "test":[
 {
 "column":"WDER_TIN"
 ,"isRequired":true
@@ -104,3 +105,4 @@ _DATE"
 ,"isRequired":false
 }
 ]
+}
